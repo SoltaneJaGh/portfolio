@@ -7,7 +7,9 @@ body {
   padding: 24px;
   color: #1c3027;
   background: #f3f4ed;
-  font: 1.1rem/1.6 system-ui, sans-serif;
+  font:
+    1.1rem/1.6 system-ui,
+    sans-serif;
 }
 
 main {
@@ -15,7 +17,8 @@ main {
   margin: 8vh auto;
 }
 
-header, section {
+header,
+section {
   padding: 24px 32px;
 }
 
@@ -47,4 +50,8 @@ ul {
 
 li + li {
   margin-top: 12px;
+}
+
+.pigeon {
+  width: 500px;
 }
